@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FNy-wf-dp7">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Controls-->
+        <scene sceneID="CPI-1T-15c">
+            <objects>
+                <viewController id="lMI-WY-IPo" customClass="NativeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7bd-Q3-WFr"/>
+                        <viewControllerLayoutGuide type="bottom" id="7EB-na-LE3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mvk-ec-FLD">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LA Dynamics 365 by CafeX Navy" translatesAutoresizingMaskIntoConstraints="NO" id="nO4-Mj-bFk">
+                                <rect key="frame" x="215" y="20" width="338" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="338" id="3gf-lc-tgI"/>
+                                    <constraint firstAttribute="height" constant="128" id="S1i-og-g66"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G5p-ft-X3M">
+                                <rect key="frame" x="203" y="383" width="362" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQD-VY-YVp">
+                                <rect key="frame" x="203" y="421" width="362" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HTc-UJ-D42">
+                                <rect key="frame" x="203" y="459" width="362" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Addess" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oER-cT-lIS">
+                                <rect key="frame" x="203" y="497" width="362" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XLA-xj-TX1">
+                                <rect key="frame" x="358" y="535" width="209" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satisfaction Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLA-sY-COW">
+                                <rect key="frame" x="203" y="540" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hide Content from Agent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxT-Bi-9iR">
+                                <rect key="frame" x="203" y="578" width="212" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="pGV-Bd-MNy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jPG-RG-IdC">
+                                <rect key="frame" x="438" y="573" width="51" height="31"/>
+                                <connections>
+                                    <action selector="hideButtonChanged:" destination="lMI-WY-IPo" eventType="valueChanged" id="tuF-Nk-fbP"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HQD-VY-YVp" firstAttribute="top" secondItem="G5p-ft-X3M" secondAttribute="bottom" constant="8" symbolic="YES" id="0Ig-cM-qV8"/>
+                            <constraint firstItem="HQD-VY-YVp" firstAttribute="trailing" secondItem="HTc-UJ-D42" secondAttribute="trailing" id="2tS-2K-cEi"/>
+                            <constraint firstItem="jPG-RG-IdC" firstAttribute="leading" secondItem="DxT-Bi-9iR" secondAttribute="trailing" constant="23" id="4s5-c8-yCC"/>
+                            <constraint firstItem="G5p-ft-X3M" firstAttribute="leading" secondItem="HQD-VY-YVp" secondAttribute="leading" id="6Ja-IJ-2fM"/>
+                            <constraint firstItem="DxT-Bi-9iR" firstAttribute="centerY" secondItem="jPG-RG-IdC" secondAttribute="centerY" id="6RJ-kj-HZa"/>
+                            <constraint firstItem="HTc-UJ-D42" firstAttribute="trailing" secondItem="oER-cT-lIS" secondAttribute="trailing" id="Ct1-WU-zPn"/>
+                            <constraint firstItem="G5p-ft-X3M" firstAttribute="trailing" secondItem="HQD-VY-YVp" secondAttribute="trailing" id="Fm2-kD-gHj"/>
+                            <constraint firstItem="nO4-Mj-bFk" firstAttribute="centerX" secondItem="Mvk-ec-FLD" secondAttribute="centerX" id="GAP-ek-ntC"/>
+                            <constraint firstItem="oER-cT-lIS" firstAttribute="trailing" secondItem="XLA-xj-TX1" secondAttribute="trailing" id="OQQ-cd-EgP"/>
+                            <constraint firstItem="XLA-xj-TX1" firstAttribute="top" secondItem="oER-cT-lIS" secondAttribute="bottom" constant="8" symbolic="YES" id="TnC-YV-RSY"/>
+                            <constraint firstItem="YLA-sY-COW" firstAttribute="centerY" secondItem="XLA-xj-TX1" secondAttribute="centerY" id="VBV-6M-aWg"/>
+                            <constraint firstItem="XLA-xj-TX1" firstAttribute="centerX" secondItem="jPG-RG-IdC" secondAttribute="centerX" id="VnZ-Fl-O8a"/>
+                            <constraint firstItem="nO4-Mj-bFk" firstAttribute="top" secondItem="7bd-Q3-WFr" secondAttribute="bottom" id="W0a-dj-MGO"/>
+                            <constraint firstItem="jPG-RG-IdC" firstAttribute="top" secondItem="XLA-xj-TX1" secondAttribute="bottom" constant="8" symbolic="YES" id="YcB-1X-Uzg"/>
+                            <constraint firstItem="XLA-xj-TX1" firstAttribute="leading" secondItem="YLA-sY-COW" secondAttribute="trailing" constant="22" id="Z5N-Q6-Ttw"/>
+                            <constraint firstItem="oER-cT-lIS" firstAttribute="top" secondItem="HTc-UJ-D42" secondAttribute="bottom" constant="8" symbolic="YES" id="ZAz-Jw-yMl"/>
+                            <constraint firstItem="HTc-UJ-D42" firstAttribute="leading" secondItem="oER-cT-lIS" secondAttribute="leading" id="dld-2X-brj"/>
+                            <constraint firstItem="nO4-Mj-bFk" firstAttribute="centerX" secondItem="G5p-ft-X3M" secondAttribute="centerX" id="eKC-Jo-9et"/>
+                            <constraint firstItem="YLA-sY-COW" firstAttribute="leading" secondItem="DxT-Bi-9iR" secondAttribute="leading" id="gGf-ae-VJY"/>
+                            <constraint firstItem="oER-cT-lIS" firstAttribute="leading" secondItem="YLA-sY-COW" secondAttribute="leading" id="hJa-ui-QYZ"/>
+                            <constraint firstItem="oER-cT-lIS" firstAttribute="centerY" secondItem="Mvk-ec-FLD" secondAttribute="centerY" id="kWA-z0-pTu"/>
+                            <constraint firstItem="HQD-VY-YVp" firstAttribute="leading" secondItem="HTc-UJ-D42" secondAttribute="leading" id="uEh-rN-4U7"/>
+                            <constraint firstItem="HTc-UJ-D42" firstAttribute="top" secondItem="HQD-VY-YVp" secondAttribute="bottom" constant="8" symbolic="YES" id="wx4-D7-aQ2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Controls" image="Business-Survey-icon" id="aVV-x4-eg5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KzR-UI-h4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-73" y="336"/>
+        </scene>
+        <!--Web View-->
+        <scene sceneID="Gn9-th-oGZ">
+            <objects>
+                <viewController id="jCD-to-fp0" customClass="WebSceneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Av8-3u-pAM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Id6-T7-T0a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FPu-OQ-xGz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWE-2x-AAw">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fWE-2x-AAw" secondAttribute="trailing" id="7zl-0G-ZNx"/>
+                            <constraint firstItem="fWE-2x-AAw" firstAttribute="leading" secondItem="FPu-OQ-xGz" secondAttribute="leading" id="OnY-yo-f8K"/>
+                            <constraint firstItem="fWE-2x-AAw" firstAttribute="top" secondItem="FPu-OQ-xGz" secondAttribute="top" id="XAa-a1-Suw"/>
+                            <constraint firstItem="fWE-2x-AAw" firstAttribute="bottom" secondItem="Id6-T7-T0a" secondAttribute="top" id="aMM-zw-iDJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web View" image="world-icon-png-3008" id="9LV-Om-nvX">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="webView" destination="fWE-2x-AAw" id="63F-oz-chS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZr-ed-GjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-73" y="-340"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="WZ8-K2-tEP">
+            <objects>
+                <tabBarController id="FNy-wf-dp7" customClass="TabBarViewController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iPQ-ga-3M6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jCD-to-fp0" kind="relationship" relationship="viewControllers" id="oO0-xy-XRC"/>
+                        <segue destination="lMI-WY-IPo" kind="relationship" relationship="viewControllers" id="vj5-BE-1PB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YRP-GS-SOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-966" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Business-Survey-icon" width="30" height="30"/>
+        <image name="LA Dynamics 365 by CafeX Navy" width="3943" height="1099"/>
+        <image name="world-icon-png-3008" width="30" height="30"/>
+    </resources>
+</document>
