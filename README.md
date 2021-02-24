@@ -6,7 +6,7 @@ to the setup and usage of the LiveAssist SDK.
 Live Assist provides customers with more immediate and personalized support within your company's
 mobile applications through an immersive chat and co-browse experience.
 
-For more information regarding Live Assist please go to https://www.cafex.com/en/products/live-assist-365/
+For more information regarding Live Assist please go to https://liveassistfor365.com/
 
 ### Getting Started ###
 This application uses Cocoapods to retrieve the Live Assist SDK and other required dependendicies.

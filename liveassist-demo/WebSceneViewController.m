@@ -9,7 +9,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString * webSite = @"http://www.cafex.com";
+    NSString * webSite = @"http://liveassistfor365.com";
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:webSite]];
     [_webView loadRequest:request];
 }

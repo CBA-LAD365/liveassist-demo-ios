@@ -1,5 +1,5 @@
 target 'liveassist-demo' do
-  platform :ios, '8.0'
+  platform :ios, '11.0'
   use_frameworks!
-  pod 'LiveAssist','~> 1.2.0'
+  pod 'LiveAssist','~> 1.3.0'
 end
