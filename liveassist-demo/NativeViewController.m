@@ -28,7 +28,6 @@
     }
 }
 
-
 -(NSArray*)findAllTextFieldsInView:(UIView*)view{
     NSMutableArray* textfieldarray = [[NSMutableArray alloc] init];
     for(id x in [view subviews]){
