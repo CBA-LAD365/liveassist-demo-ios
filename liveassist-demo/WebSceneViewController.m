@@ -1,7 +1,8 @@
 #import "WebSceneViewController.h"
+#import "AppSettings.h"
 
 @interface WebSceneViewController ()
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet WKWebView *webView;
 
 @end
 
@@ -9,7 +10,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString * webSite = @"http://liveassistfor365.com";
+    NSString * webSite = [AppSettings webSite];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:webSite]];
     [_webView loadRequest:request];
 }
