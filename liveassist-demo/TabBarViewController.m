@@ -42,7 +42,7 @@ bool useConstraints = true;
 // The App is designed to go into its Settings on the device and look for this section and feed the result into UserDefaults. In the settings is where you want to enter **AccountId**
 // Alternatively you can uncomment the accountId line and set this value in Info.plist
 -(AssistConfig*) getLiveAssistConfigFromSettings {
-    long accountId = [[[NSBundle mainBundle] objectForInfoDictionaryKey:@"AccountID"] intValue];
+    long accountId = [[[NSBundle mainBundle] objectForInfoDictionaryKey:@"AccountId"] intValue];
     LiveAssistChatStyle style = [AppSettings chatStyle];
     //NSArray *mobileSections = [self getSectionArrayByIndex:0];
     NSArray *mobileSections = @[@"mobile"];
