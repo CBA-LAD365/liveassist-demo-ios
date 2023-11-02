@@ -17,12 +17,22 @@ bool useConstraints = true;
     [self setupLiveAssist];
     self.delegate = self;
 }
+- (void) setupEngagementAttributesForTesting {
+    NSString *dateStr = [NSDateFormatter localizedStringFromDate:[NSDate date]
+                                                       dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterFullStyle];
+    NSString *ea = [NSString stringWithFormat:@"{\"type\": \"personal\", \"personal\":{\"company\":\"IOS_ENCRYPTED_AUTH_STRING_500_CHARACTERS_MAX_%@\"}}", dateStr];
+    
+    [_assistView setEngagementAttributesViaJson: ea];
+}
 
 -(void) setupLiveAssist {
     AssistConfig* assistConfig = [self getLiveAssistConfigFromSettings];
     assistConfig.mask = [self getLiveAssistMaskFromSettings];
     
     _assistView = [[LiveAssistView alloc] initWithAssistConfig:assistConfig];
+    
+    [ self setupEngagementAttributesForTesting];
+    
     [self.view addSubview:_assistView];
     
     if(useConstraints){
