@@ -1,16 +1,16 @@
 PODS:
-  - LiveAssist-xc (1.4.1)
+  - LiveAssist-xc (1.4.2)
 
 DEPENDENCIES:
-  - LiveAssist-xc (= 1.4.1)
+  - LiveAssist-xc (= 1.4.2)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/mbealewales/LARepo.git:
     - LiveAssist-xc
 
 SPEC CHECKSUMS:
-  LiveAssist-xc: 60d993b259b101486199ea4919ca22b184eb40f7
+  LiveAssist-xc: 743f7c38989cc800b4fe052224f0022dc7ff9271
 
-PODFILE CHECKSUM: 31f11b5f0cbae290054668c9d008769127ce7cf7
+PODFILE CHECKSUM: 251d9d2ddbc88d40e8eb2787f58a373216d51591
 
 COCOAPODS: 1.13.0
