@@ -1,16 +1,16 @@
 PODS:
-  - LiveAssist-xc (1.4.3)
+  - LiveAssist-xc (1.4.4)
 
 DEPENDENCIES:
-  - LiveAssist-xc (= 1.4.3)
+  - LiveAssist-xc (= 1.4.4)
 
 SPEC REPOS:
   trunk:
     - LiveAssist-xc
 
 SPEC CHECKSUMS:
-  LiveAssist-xc: 6bed87448d156de4a67e490f734b946644ef2203
+  LiveAssist-xc: 6afa01821529378aa138429cacc67f628b7f1410
 
-PODFILE CHECKSUM: 64503f4ce2c9d0ea617b79416d534313180a207f
+PODFILE CHECKSUM: 46917a35a8989479eb0714d58a1e53e226d4bb39
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
